@@ -1,7 +1,7 @@
 <h1>Contacts</h1>
 
 <% contacts = Contact.all %>
-
+<%= Contact.all.count %>
 <ul>
     <% for contact in contacts %>
         <li>
@@ -12,3 +12,4 @@
         </li>
     <% end %>
 </ul>
+test
